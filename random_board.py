@@ -1,7 +1,7 @@
 from random import random, randint
 
 def random_board(blank=False):
-	n = randint(5, 7)
+	n = randint(3, 4)
 	chance = random()
 	board = [['.' for i in range(n)] for j in range(n)]
 	values = [[0 for i in range(n)] for j in range(n)]
